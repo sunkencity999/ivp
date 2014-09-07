@@ -1,0 +1,133 @@
+@import "bootstrap";
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");
+
+/* Header */
+
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url('/assets/bg.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: #FFFFF0;
+}
+
+
+/* About */
+
+.about {
+    padding: 20px 0;
+    width: 100%;
+    height: 750px;
+}
+
+/* Services */
+
+.services {
+    padding: 50px 0;
+}
+
+.im {
+   
+    display: table;
+    position: relative;
+    width:100%;
+    height: 100%;
+    background: url('bgpaint.png');
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    }
+
+#outer{
+    width:100%;
+
+    /* Firefox */
+    display:-moz-box;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+
+    /* Safari and Chrome */
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+
+    /* W3C */
+    display:box;
+    box-pack:center;
+    box-align:center;
+}
+
+#box-wrap-inner {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  box-pack: center;
+}
+#inner {
+  margin-top: 200px;
+
+/*IE8 and below*/
+background: rgb(200, 54, 54);
+/*all other browsers*/
+background: rgba(200, 54, 54, .85)
+}
+
+#seethrough {
+/*IE8 and below*/
+background: rgb(200, 54, 54);
+/*all other browsers*/
+background: rgba(200, 54, 54, .85)
+  
+}
+
+.jumbotron {
+
+width: 100%;
+
+}
+
+.footer {
+  padding: 20px;
+  background-color: #333333;
+  margin-top: 20px;
+  width: 100%;
+
+}
+
+#wide {
+  width: 100%;
+}
+
+span.glyphicon-link {
+    font-size: 20em;
+}
+
+.page-header {
+  
+  padding-top: 25px;
+
+}
+
+.navbar {
+  
+  border-bottom: none;
+  background: #FFFFF0;
+
+}

@@ -7,6 +7,8 @@ Rails.application.routes.draw do
 
   get 'welcome/gallery'
 
+  get 'welcome/services'
+
   root to: 'welcome#index'
 
 end

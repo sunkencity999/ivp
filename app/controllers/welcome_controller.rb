@@ -10,4 +10,8 @@ class WelcomeController < ApplicationController
 
   def gallery
   end
+
+  def services
+  end
+  
 end

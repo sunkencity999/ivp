@@ -1,2 +1,36 @@
-<h1>Welcome#index</h1>
-<p>Find me in app/views/welcome/index.html.erb</p>
+
+<div class="page-header"> 
+
+<h1><center>Ingebretsen Victorian Painting </center></h1>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="about">
+      <div class="im">
+        <div class="jumbotron" id="inner">
+           <center><h2><font color="FFFFF0">We make your home or business <em>Beautiful.</em></font></h2>
+           </br>
+            <%= link_to "Learn More", welcome_services_path, class: 'btn btn-success btn-lrg' %></center>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4" style="border-right:1px solid black">
+  <center><h3> Exterior Paint & Restoration </h3>
+  <span class="glyphicon glyphicon-home"></span>
+  <%= link_to "Learn More", welcome_services_path, class: 'btn btn-success btn-lrg' %></center>
+</div>
+  <div class="col-md-4" style="border-right:1px solid black">
+  <center><h3> Interior Paint & Restoration </h3>
+   <span class="glyphicon glyphicon-home"></span>
+  <%= link_to "Learn More", welcome_services_path, class: 'btn btn-success btn-lrg' %></center>
+</div>
+  <div class="col-md-4">
+  <center><h3> Business & Commercial </h3>
+   <span class="glyphicon glyphicon-home"></span>
+  <%= link_to "Learn More", welcome_services_path, class: 'btn btn-success btn-lrg' %></center>
+</div>
+
