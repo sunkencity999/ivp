@@ -11,4 +11,6 @@ Rails.application.routes.draw do
 
   root to: 'welcome#index'
 
+  match '/send_email', to: 'contact#send_email', via: 'post'
+
 end
