@@ -1,5 +1,5 @@
 class ContactMailer < ActionMailer::Base
-  default to: "christopher@scratchitoff.co"
+  default to: "hansingebretsen@yahoo.com"
 
   def contact_email(name, email, message)
     @name = name
